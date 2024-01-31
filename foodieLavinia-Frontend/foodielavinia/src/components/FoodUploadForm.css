@@ -1,0 +1,205 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url('../images/background-image.jpg');
+  background-size: auto 1500px;
+  background-repeat: no-repeat !important;
+  background-position: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  overflow: auto;
+  min-height: 780px;
+}
+
+.background-image{
+  height: auto;
+  width: auto;
+  overflow: auto;
+  background-size: cover;
+  background-repeat: no-repeat ;
+  background-position: center;
+}
+
+/* foodUpload page css */
+
+.form-container {
+  background-color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #000000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 500px;
+  height: 500px;
+}
+
+/* FoodResponseTable css */
+.table-striped {
+  width: 100%;
+  border: 1px;
+  min-width: 100%;
+  position: relative;
+  background: transparent;
+  float: right;
+}
+
+.table-foodUpload {
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white;
+  border: 1px solid black; 
+  min-width: 70%;
+  position: relative;
+  opacity: 0.97;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-foodUpload th {
+  border: 3px solid black; 
+  background-color: #333; 
+  color: white; 
+  text-align: center;
+}
+
+
+.table-foodUpload td {
+  border: 3px solid black; 
+  text-align: center;
+}
+
+
+/* foodList css */
+
+.d{
+  height: auto;
+  width: 100%;
+  overflow: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.table-FoodList {
+  background-color:rgba(150, 75, 0, 0.8); 
+  color: white;
+  border: 1px solid #964B00; 
+  min-width: 70%;
+  position: relative;
+  opacity: 0.97;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table-FoodList th {
+  border: 3px solid black; 
+  background-color: #964B00; 
+  color: white; 
+  text-align: center;
+}
+
+
+.table-FoodList td {
+  border: 3px solid black; 
+  text-align: center;
+}
+
+
+.btn-warning {
+  background-color: rgba(255,215,0, 0.5);
+}
+
+
+/* About us */
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/* Style the video and description container */
+.video-description-container {
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  max-width: auto; /* Adjust the maximum width to your preference */
+}
+
+/* Style the video container */
+.video-container {
+  flex: 1;
+  margin-right: 10px; /* Add some spacing between video and description */
+}
+
+/* Style the description container */
+.description-container {
+  flex: 1;
+}
+
+/* contact us css */
+
+.contact-form{
+  background: rgba(255,255,255, 0.5);
+  margin-top: 10%;
+  margin-bottom: 5%;
+  width: 70%;
+}
+.contact-form .form-control{
+  border-radius:1rem;
+}
+.contact-image{
+  text-align: center;
+}
+.contact-image img{
+  border-radius: 6rem;
+  width: 11%;
+  margin-top: -3%;
+  transform: rotate(29deg);
+}
+.contact-form form{
+  padding: 14%;
+}
+.contact-form form .row{
+  margin-bottom: -7%;
+}
+.contact-form h3{
+  margin-bottom: 8%;
+  margin-top: -10%;
+  text-align: center;
+  color: #0062cc;
+}
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #dc3545;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.btnContactSubmit
+{
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  background-color: #0062cc;
+  border: none;
+  cursor: pointer;
+}
+
